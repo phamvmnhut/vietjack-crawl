@@ -42,4 +42,4 @@ package-lock.json
 .env
 /.idea/*
 
-/output
+/output/*.pdf
