@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "ts-node index.ts"
+    "vietjack": "ts-node index.ts type vietjack",
+    "loigiaihay": "ts-node index.ts type loigiaihay"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
