@@ -140,6 +140,20 @@ export async function printPdfLoigiaihay(page: Page, i: number) {
   });
 
   await page.evaluate(() => {
+    let header = document.querySelector("body > div.popup-confirm-notify");
+    if (header) {
+      header.parentNode?.removeChild(header);
+    }
+  });
+
+  await page.evaluate(() => {
+    let header = document.querySelector("body > div.mark");
+    if (header) {
+      header.parentNode?.removeChild(header);
+    }
+  });
+
+  await page.evaluate(() => {
     document.body.offsetHeight; // Kích hoạt reflow
   });
 

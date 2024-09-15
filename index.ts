@@ -11,9 +11,12 @@ import { printPdfLoigiaihay } from "./src/loigiaihay";
 
 
 const listPage = [
-  "https://vietjack.com/toan-5-cd/bai-5-on-tap-va-bo-sung-va-cac-phep-tinh-voi-phan-so.jsp",
-  "https://vietjack.com/toan-5-cd/bai-6-gioi-thieu-ve-ti-so.jsp",
-  "https://vietjack.com/toan-5-cd/bai-7-tim-hai-so-khi-biet-tong-va-ti-so-cua-hai-so-do.jsp"
+  "https://loigiaihay.com/giai-phan-a-tai-hien-cung-co-trang-2-bai-tap-phat-trien-nang-luc-toan-5-a118079.html",
+  "https://loigiaihay.com/giai-phan-b-ket-noi-trang-3-bai-tap-phat-trien-nang-luc-toan-5-a118085.html",
+  "https://loigiaihay.com/giai-phan-a-tai-hien-cung-co-trang-6-bai-tap-phat-trien-nang-luc-toan-5-a118147.html",
+  "https://loigiaihay.com/giai-phan-b-ket-noi-trang-8-bai-tap-phat-trien-nang-luc-toan-5-a118158.html",
+  "https://loigiaihay.com/giai-phan-a-tai-hien-cung-co-trang-10-bai-tap-phat-trien-nang-luc-toan-5-a121026.html",
+  "https://loigiaihay.com/giai-phan-b-ket-noi-trang-11-bai-tap-phat-trien-nang-luc-toan-5-a121032.html"
 ];
 
 dotenv.config();
